@@ -1,0 +1,38 @@
+.home-page-section2{
+    min-height: 100vh;
+    background: url('../../../assets//images/Palm-background_c04766ce9d5593d9fb5a02e1dd8ec3f6.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 3% 7%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .content{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        
+
+        .image-container{
+            width: 70%;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                min-height: 50px;
+            }
+        }
+
+        .details-inner{
+            padding: 2% 4%;
+            background-color: white;
+            width: 50%;
+            position: absolute;
+            right: 0;
+        }
+    }
+
+
+}

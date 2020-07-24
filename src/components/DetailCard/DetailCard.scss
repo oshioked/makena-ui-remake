@@ -1,0 +1,29 @@
+.detail-card{
+    background: white;
+    padding: 6% 2%;
+    width: 100%;
+
+    h4{
+        color: #a72c2a;
+        font-weight: 300;
+        overflow: hidden;
+    }
+
+    h1{
+        font-weight: 300;
+        font-size: 32px;
+        overflow: hidden;
+    }
+
+    .button-container{
+        overflow: hidden;
+
+        button{
+            border: 1px solid #a72c2a;
+            background: transparent;
+            padding: 15px 20px;
+            cursor: pointer;
+        }                
+    }
+
+}

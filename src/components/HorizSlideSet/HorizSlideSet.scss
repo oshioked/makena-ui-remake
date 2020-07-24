@@ -1,0 +1,74 @@
+.horiz-slide-set{
+    min-width: 80vw; 
+    position: relative;
+    max-height: 100%;
+    padding: 0 3%;
+    overflow: hidden;
+
+    .base-image-container{
+        width: 60%;
+        margin: 0 auto;
+        max-height: 100%;
+        display: flex;
+        justify-content: center;
+        // width: fit-content;
+        
+        img{
+            width: 100%;
+        }
+    }
+
+    .content{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        padding: 2% 7%;
+
+        .content-image-container{
+            width: 70%;
+
+            img{
+                width: 100%;;
+            }
+        }
+
+        .content-detail{
+
+            background: white;
+            width: 30%;
+            position: absolute;
+            left: 60%;
+            transform: translateX(-10%);
+            padding: 5%;
+
+            h4{
+                color: #a72c2a;
+                font-weight: 300;
+                overflow: hidden;
+            }
+        
+            h1{
+                font-weight: 300;
+                font-size: 32px;
+                overflow: hidden;
+            }
+        
+            .button-container{
+                overflow: hidden;
+        
+                button{
+                    border: 1px solid #a72c2a;
+                    background: transparent;
+                    padding: 15px 20px;
+                    cursor: pointer;
+                }                
+            }
+        }
+    }
+
+
+}
